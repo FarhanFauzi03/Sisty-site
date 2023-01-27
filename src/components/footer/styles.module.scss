@@ -1,0 +1,15 @@
+@import "../../sass/variables.scss";
+
+.footer {
+    display: block;
+    background-color: $blue;
+    padding: 10px 0;
+}
+
+.footer-inner {
+    display: flex;
+    color: $white;
+    font-family: $poppins;
+    font-size: 14px;
+    text-transform: lowercase;
+}

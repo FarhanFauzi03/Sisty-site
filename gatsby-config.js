@@ -6,5 +6,7 @@ module.exports = {
     title: `Sisty Busana`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-sass`
+  ],
 }

@@ -1,0 +1,50 @@
+@import "../../sass/variables.scss";
+
+.navbar {
+    padding: 50px 0;
+    background-color: $blue;
+}
+
+.navbar-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: $white;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: $poppins;
+    position: relative;
+    text-transform: lowercase;
+
+    img {
+        width: 20%;
+        height: 50px;
+        vertical-align: middle;
+    }
+
+    // &:before {
+    //     content: '';
+    //     height: 20px;
+    //     width: 20px;
+    //     display: inline-block;
+    //     vertical-align: middle;
+    //     margin-right: 15px;
+    //     border: 2px solid $white;
+    // }
+}
+
+.cta {
+    padding: 13px 25px;
+    border-radius: 5px;
+    color: $blue;
+    background-color: $white;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: $poppins;
+    text-transform: lowercase;
+}
